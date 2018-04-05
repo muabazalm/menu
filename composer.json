@@ -1,7 +1,8 @@
 {
     "name": "muabazalm/menu",
+    "version": "1.1.1",
     "description": "Menu and role management helper.",
-    "keywords": ["menu", "role", "library"],
+    "keywords": ["menu", "role", "library", "laravel"],
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +10,7 @@
             "email": "muabazalm@gmail.com"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
 		"php": ">=5.4"
     },
@@ -24,10 +25,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Muabazalm\\Menu\\ServiceProvider"
+                "Muabazalm\\Menu\\MenuServiceProvider"
             ],
             "aliases": {
-                "Muabazalm": "Muabazalm\\Menu\\Facade"
+                "Muabazalm": "Muabazalm\\Menu\\MenuFacade"
             }
         }
     }
