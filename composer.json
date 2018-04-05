@@ -27,7 +27,7 @@
                 "Muabazalm\\Menu\\ServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Muabazalm\\Menu\\Facade"
+                "Muabazalm": "Muabazalm\\Menu\\Facade"
             }
         }
     },
