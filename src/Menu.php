@@ -24,7 +24,7 @@ class Menu
     *
     * @return string
     */
-    public function method1($param1)
+    public static function method1($param1)
     {
         return "Hello World";
     }
