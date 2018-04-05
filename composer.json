@@ -1,0 +1,24 @@
+{
+    "name": "muabazalm/menu",
+    "description": "Menu and role management helper.",
+    "keywords": ["menu", "role", "library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muabazalm",
+            "email": "muabazalm@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Muabazalm\\Menu\\": "src/"
+        }
+    }
+}
