@@ -20,5 +20,15 @@
         "psr-4": {
             "Muabazalm\\Menu\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muabazalm\\Menu\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Muabazalm\\Menu\\Facade"
+            }
+        }
+    },
 }
