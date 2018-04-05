@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  *
  */
-class MenyServiceProvider extends ServiceProvider
+class MenuServiceProvider extends ServiceProvider
 {
     public function boot()
     {
