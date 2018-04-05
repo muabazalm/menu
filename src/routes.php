@@ -4,5 +4,5 @@ Route::get('demo', function () {
 });
 
 Route::get('view', function () {
-    return view('muabazalm.admin::index');
+    return view('muabazalm.menu::index');
 });
