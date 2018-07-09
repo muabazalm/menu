@@ -1,6 +1,6 @@
 <?php
 Route::get('demo', function () {
-    return "DEMO TEST";
+    return "EDIT";
 });
 
 Route::get('view', function () {
