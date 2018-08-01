@@ -1,6 +1,6 @@
 <?php
 Route::get('demo', function () {
-    return "EDIT";
+    return \Muabazalm\Menu\Menu::method1("ua");
 });
 
 Route::get('view', function () {
